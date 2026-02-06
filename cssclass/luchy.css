@@ -1,0 +1,18 @@
+*{
+
+    box-sizing : border-box;
+    margin:0
+}
+body{
+     background-color:rgb(200, 221, 159) ;
+     height: 100%;
+     width: 100%;
+     color: rgba(213, 185, 26, 0.853);
+}
+header{
+background-color: rgba(7, 6, 6, 0.708);
+padding: 30px 400px 30px ;
+height: 120px;
+
+
+}

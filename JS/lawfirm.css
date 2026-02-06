@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+ .overall-header {
+     background-color: #0b1d3a;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding-bottom: 40px;
+     height: 200px;
+
+ }
+header {
+    display: flex;
+    width: 950px;
+    margin: auto;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 40px;
+    color: white;
+}
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+.logo {
+    display: flex;
+    column-gap: 0.5rem;
+}
+.logo1 {
+    height: 50px;
+    width: 50px;
+}
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.contact-btn {
+    background: #da5d30;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.about-us {
+    background-color: #0b1d3a;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.about-us h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 10px;
+
+}
+
+.style3-container {
+    padding: 15px 15px 5px 5px;
+    height: 50vh;
+    margin: 90px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.style3-image img {
+    width: 350px;
+    border-radius: 8px;
+}
+.style3right-cont {
+    height: 50vh';
+}
+
+.style3right-cont h1 {
+    width: 550px;
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.style3right-cont p {
+    width: 550px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #282626;
+}
+
+.statistics {
+    display: flex;
+    gap: 40px;
+    margin: 25px 0;
+}
+
+.statistics h2 {
+    font-size: 28px;
+    color: #0d0d0d;
+}
+.statistics span {
+    font-size: 14px;
+    color: #323232;
+}
+.btn {
+    display: inline-block;
+    padding: 14px 26px;
+    background: #f07218;
+    color: #fcf6f6;
+    text-decoration: none;
+    border-radius: 30px;
+}

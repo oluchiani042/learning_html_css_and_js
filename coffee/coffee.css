@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color:#f2ece0;
+    --header-color:#DABC9A;
+    --p-color:#B49E89;
+}
+
+header{
+    background-color: var(--header-color);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a{
+    margin-left: 20px;
+    text-decoration:none;
+    color: black;
+}
+.logo{
+    text-decoration: underline;
+}
+.imagebg{
+    height: 100vh;
+    background-image: url("./img/coffee\ tea.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.textcon{
+    color: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding:100px 0px 0px 100px ;
+}
+
+.textcon h1{
+    font-size: 2.9rem;
+    letter-spacing: 2px;
+}
+
+.textcon p{
+    color: var(--p-color);
+    margin-top: 1rem;
+}
+.info{
+    margin-top: 10px;
+    display: flex;
+    gap: 1rem;
+}
+
+.info :nth-child(1){
+    background-color: white;
+    padding: 6px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+}
+.info :nth-child(2){
+    background-color: var(--header-color);
+    padding: 6px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+

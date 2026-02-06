@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ovcontainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(119, 82, 35);
+    position: relative;
+}
+
+.box {
+    width: 200px;
+    background-color: blue;
+    height: 200px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: oblique;
+    color: gold;
+}
+
+.box2 {
+    width: 200px;
+    background-color: white;
+    height: 200px;
+    position: absolute;
+    right: 1%;
+    top: 1%;g
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: oblique;
+    color: gold;
+
+}
+
+.box3 {
+    width: 200px;
+    background-color: white;
+    height: 200px;
+    position: absolute;
+    left: 1%;
+    bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: oblique;
+    color: gold;
+}
